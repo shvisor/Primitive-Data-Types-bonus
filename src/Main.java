@@ -12,7 +12,7 @@ public class Main {
             bonusAmount = 0;
         }
 
-        /* int bonusAmount = bonusCalc ? depositAmount / 100 : 0; */ // попробовал этот вариант. также все работает
+        /* int bonusAmount = bonusCalc ? depositAmount / 100 : 0; */ // попробовал этот вариант, также все работает (похоже на функцию ЕСЛИ из Excel)
 
         int account = incomingAmount + depositAmount + bonusAmount;
 
